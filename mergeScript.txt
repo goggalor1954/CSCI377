@@ -1,0 +1,74 @@
+Script started on Mon 11 Jun 2018 04:27:08 PM EDT
+]0;jim@jim-TMM: ~/Desktop/github/CSCI377[01;32mjim@jim-TMM[00m:[01;34m~/Desktop/github/CSCI377[00m$ python[K[K[K[K[K[Kpython ./sortTest
+python: can't open file './sortTest': [Errno 2] No such file or directory
+]0;jim@jim-TMM: ~/Desktop/github/CSCI377[01;32mjim@jim-TMM[00m:[01;34m~/Desktop/github/CSCI377[00m$ python ./sortTest.py
+Enter How many variables to sort: 2
+Enter range of vartiablees from 0 to : 4
+Enter "Insertion" for insertion Sort and "Merge" for Merge Sort: Merge
+
+This is a unsorted list containing 2 variables:
+4
+3
+
+This is a Merge list containing 2 variables:
+3
+4
+With 2 variables ranging from 0 to 4, Merge sort took 0 seconds.
+
+This is a unsorted list containing 4 variables:
+8
+5
+5
+6
+
+This is a Merge list containing 4 variables:
+5
+5
+6
+8
+With 4 variables ranging from 0 to 8, Merge sort took 0 seconds.
+
+This is a unsorted list containing 8 variables:
+11
+8
+6
+16
+6
+2
+15
+3
+
+This is a Merge list containing 8 variables:
+2
+3
+6
+6
+8
+11
+15
+16
+With 8 variables ranging from 0 to 16, Merge sort took 0 seconds.
+With 16 variables ranging from 0 to 32, Merge sort took 0 seconds.
+With 32 variables ranging from 0 to 64, Merge sort took 0 seconds.
+With 64 variables ranging from 0 to 128, Merge sort took 0 seconds.
+With 128 variables ranging from 0 to 256, Merge sort took 0 seconds.
+With 256 variables ranging from 0 to 512, Merge sort took 0 seconds.
+With 512 variables ranging from 0 to 1024, Merge sort took 0 seconds.
+With 1024 variables ranging from 0 to 2048, Merge sort took 0 seconds.
+With 2048 variables ranging from 0 to 4096, Merge sort took 0 seconds.
+With 4096 variables ranging from 0 to 8192, Merge sort took 0 seconds.
+With 8192 variables ranging from 0 to 16384, Merge sort took 0 seconds.
+With 16384 variables ranging from 0 to 32768, Merge sort took 0 seconds.
+With 32768 variables ranging from 0 to 65536, Merge sort took 0 seconds.
+With 65536 variables ranging from 0 to 131072, Merge sort took 0 seconds.
+With 131072 variables ranging from 0 to 262144, Merge sort took 0 seconds.
+With 262144 variables ranging from 0 to 524288, Merge sort took 1 seconds.
+With 524288 variables ranging from 0 to 1048576, Merge sort took 3 seconds.
+With 1048576 variables ranging from 0 to 2097152, Merge sort took 6 seconds.
+With 2097152 variables ranging from 0 to 4194304, Merge sort took 13 seconds.
+With 4194304 variables ranging from 0 to 8388608, Merge sort took 28 seconds.
+With 8388608 variables ranging from 0 to 16777216, Merge sort took 60 seconds.
+]0;jim@jim-TMM: ~/Desktop/github/CSCI377[01;32mjim@jim-TMM[00m:[01;34m~/Desktop/github/CSCI377[00m$ exit
+exit
+
+Script done on Mon 11 Jun 2018 04:30:19 PM EDT
