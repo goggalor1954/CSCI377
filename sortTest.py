@@ -42,11 +42,14 @@ def repeatSort(numOfVar, size, sortType):
 	sortList=[]
 	buildList(sortList, numOfVar, size)
 	if numOfVar<=10:
-		testMode( sortType, sortList)
+		testMode( 'unsorted', sortList)
 	timeStart=time.time()
+	#insertion dort
 	if sortType == "Insertion":
 		insertionSort.insertSort(sortList)
-	# put if statment for Merge sort here
+	#Merge sort
+	if sortType == "Merge":
+		sortList=mergeSort.mergeSort(sortList)
 	if numOfVar<=10:
 		testMode( sortType, sortList)
 	timeElapsed=sortTime(timeStart)
@@ -60,15 +63,16 @@ def repeatSort(numOfVar, size, sortType):
 	
 import random
 import time
-import insertionSort	
+import insertionSort
+import mergeSort	
 
 
 random.seed()
 # initial number of variables
-numOfVar = input()
+numOfVar = input('Enter How many variables to sort: ')
 # initial range of variables
-size=input()
-sortType=raw_input()
+size=input('Enter range of vartiablees from 0 to : ')
+sortType=raw_input('Enter "Insertion" for insertion Sort and "Merge" for Merge Sort: ')
 if sortType!="Insertion" and sortType!="Merge":
 	quit(0)
 repeatSort(numOfVar, size, sortType)
